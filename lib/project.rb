@@ -1,14 +1,18 @@
 require 'pry'
 
-attr_reader :backers
+class Project 
 
-def initialize
-  @backers = []
+  attr_reader :backers
+
+  def initialize
+   @backers = []
+  end 
+
+  def add_backer(backer)
+   @backers << self.backer 
+  end 
 end 
 
-def add_backer(backer)
-  @backers << self.backer 
-end 
 
 
 
