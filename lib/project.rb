@@ -5,13 +5,13 @@ class Project
 
   attr_reader :backers
 
-  def initialize(name)
-    @name = name 
+  def initialize(title)
+    @title = title 
    @backers = []
   end 
   
-  def name 
-    @name 
+  def title 
+    @title
   end 
 
   def add_backer(backer)
