@@ -1,5 +1,6 @@
 require 'pry'
 
+
 class Project 
 
   attr_reader :backers
@@ -11,6 +12,8 @@ class Project
   def add_backer(backer)
    @backers << self.backer 
   end 
+  
+  
 end 
 
 
